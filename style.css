@@ -205,3 +205,75 @@ nav .navigation ul li a:hover {
   bottom: 100px;
 }
 /* course end */
+/* registration start */
+#registration {
+  padding: 6vw 8vw 6vw 8vw;
+  background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 1, 233, 0.5)), url("./images/signup.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#registration .remineder {
+  color: #fff;
+}
+#registration .remineder h1 {
+  color: #fff;
+}
+#registration .remineder .time {
+  display: flex;
+  margin-top: 40px;
+}
+#registration .remineder .time .date {
+  text-align: center;
+  padding: 13px 33px;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(4px);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+  border-radius: 10px;
+  margin: 0px 5px 10px 5px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+#registration .form {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+}
+#registration .form input {
+  margin: 15px 0px;
+  padding: 15px 10px;
+  border: 1px solid rgba(84,40, 241);
+  outline: none;
+}
+#registration .form input::placeholder {
+  color: #413c34;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+#registration .form .btn {
+  margin-top: 20px;
+}
+#registration a {
+  font-size: 0.9rem;
+  background-color: #fff;
+  padding: 13px 35px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+#registration a.yellow {
+  background-color: #FCD93B;
+  color: #fff;
+}
+#registration a.yellow:hover {
+  background-color: #fff;
+  color: rgb(21, 21, 100);
+}
+/* registration end */
