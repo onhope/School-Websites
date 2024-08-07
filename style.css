@@ -280,7 +280,7 @@ nav .navigation ul li a:hover {
 /* registration end */
 /* profile start */
 #experts {
-  padding: 8vw 8vw 0px 8vw;
+  padding: 8vw;
   text-align: center;
 }
 #experts .expert-box {
