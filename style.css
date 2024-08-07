@@ -7,15 +7,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: "Poppins", sans-serif;
 }
-
 li {
   list-style: none;
 }
-
 a {
   text-decoration: none;
 }
@@ -26,12 +23,10 @@ h1 {
   font-weight: 700;
   color: rgb(35, 35, 85);
 }
-
 span {
   font-size: .9rem;
   color: #757373;
 }
-
 h6 {
   font-size: 1.1rem;
   color: rgb(24, 24, 49);
@@ -51,29 +46,35 @@ nav {
   box-shadow: 2px 2px 10px rgba(0,0,0,0.15);
   z-index: 999;
 }
-
 nav img {
   width: 150px;
   cursor: pointer;
 }
-
+nav .navigation {
+  display: flex;
+}
+nav #menu-btn {
+  width: 30px;
+  height: 30px;
+  display: none;
+}
+nav #menu-close {
+  display: none;
+}
 nav .navigation ul {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
-
 nav .navigation ul li {
   margin-left: 30px;
 }
-
 nav .navigation ul li a {
   font-size: 16px;
   font-weight: 500;
   color: rgb(21, 21, 100);
   transition: 0.3s ease;
 }
-
 nav .navigation ul li a:hover {
   color: #FCD93B;
 }
@@ -387,3 +388,74 @@ footer .copyright .pro-links i:hover {
   color: #2c2c2c;
 }
 /* footer end */
+/* 반응형 */
+@media (max-width: 769px) {
+  nav {
+    padding: 15px 20px;
+  }
+  nav img {
+    width: 130px;
+  }
+  nav #menu-btn {
+    display: initial;
+  }
+  nav #menu-close {
+    display: initial;
+    font-size: 1.6rem;
+    color: #fff;
+    padding: 30px 0px 20px 20px;  
+  }
+  nav .navigation ul {
+    position: absolute;
+    top: 0;
+    right: -220px;
+    width: 220px;
+    height: 100vh;
+    background-color: rgba(17, 20, 104, 0.45);
+    backdrop-filter: blur(0.45px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: 0.3s ease;
+  }
+  nav .navigation ul.active {
+    right: 0;
+  }
+  nav .navigation ul li {
+    padding: 20px 0px 20px 40px;
+    margin-left: 0;
+  }
+  nav .navigation ul li a {
+    color: #fff;
+  }
+  #home {
+    padding-top: 0px;
+  }
+  #home p {
+    width: 90%;
+  }
+  #features {
+    padding: 8vw 4vw 0 4vw;
+  }
+  #course {
+    padding: 8vw 4vw 0 4vw;
+  }
+  #registration {
+    margin-top: 8vw;
+    padding: 6vw 4vw 6vw 4vw;
+  }
+  #registration .remineder .time {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  #experts {
+    padding: 8vw 8vw 4vw 8vw;
+    text-align: center;
+  }
+  footer .copyright .pro-links {
+    margin-top: 15px;
+  }
+}
