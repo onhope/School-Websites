@@ -360,7 +360,7 @@ footer .subscribe a {
 }
 footer .subscribe a.yellow {
   background-color: #FCD93B;
-  color: #fff;
+  color: rgb(21, 21, 100);
 }
 footer .subscribe a.yellow:hover {
   background-color: #fff;
@@ -464,6 +464,7 @@ footer .copyright .pro-links i:hover {
   margin-top: 60px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 #trust .trust-img img {
   width: 90px;
@@ -557,6 +558,7 @@ footer .copyright .pro-links i:hover {
   /* about page end */
 }
 @media (max-width: 475px) {
+  /* main page start */
   #registration {
     display: flex;
     flex-direction: column;
@@ -572,4 +574,30 @@ footer .copyright .pro-links i:hover {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+  /* main page end */
+  /* about page start */
+  #about-container {
+    flex-direction: column-reverse;
+  }
+  #about-container .about-img {
+    width: 100%;
+    padding-right: 0px;
+  }
+  #about-container .about-text {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  #trust .trust-img {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #trust .trust-img img {
+    width: 60px;
+    margin: 10px 15px;
+    height: auto;
+  }
+  /* about page end */
 }
