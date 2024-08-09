@@ -16,4 +16,7 @@ https://youtu.be/RamIl-pjGE4?si=HK3tiWrHQdq-wi1P
 
 ### (3) blog page
 - blog container 영역 추가
+- post page 만들어서 버튼에 연결
+- post page의 post 영역 추가
 - 미디어 쿼리를 이용한 반응형 (ipad, iphone6/7/8 plus)
+
