@@ -32,7 +32,7 @@ h6 {
   color: rgb(24, 24, 49);
 }
 
-/* main page */
+/* main page start*/
 /* navigation start */
 nav {
   position: fixed;
@@ -75,6 +75,7 @@ nav .navigation ul li a {
   color: rgb(21, 21, 100);
   transition: 0.3s ease;
 }
+nav .navigation ul li a.active,
 nav .navigation ul li a:hover {
   color: #FCD93B;
 }
@@ -388,6 +389,74 @@ footer .copyright .pro-links i:hover {
   color: #2c2c2c;
 }
 /* footer end */
+/* main page end */
+/* about page start */
+/* about-home start */
+#about-home {
+  background: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5,4,46,0.7)), url("./images/back1.jpg");
+  width: 100%;
+  height: 60vh;
+  padding-top: 40px;
+  background-size: cover;
+  background-position: center;
+  display: flex; /* flex 아이템들 column 방향으로 중앙 정렬 */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#about-home h2 {
+  color: #fff;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+}
+/* about-home end */
+/* about-con start */
+#about-container {
+  display: flex;
+  align-items: center;
+  padding: 8vw 8vw 2vw 8vw;
+}
+#about-container .about-img {
+  width: 60%;
+  padding-right: 60px;
+}
+#about-container .about-img img {
+  width: 100%;
+}
+#about-container .about-text {
+  width: 40%;
+}
+#about-container .about-text h2 {
+  color: #29303b;
+  padding-bottom: 15px;
+}
+#about-container .about-text p {
+  color: #686F7A;
+  font-weight: 300;
+}
+#about-container .about-text .about-fe {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+#about-container .about-text .about-fe img {
+  width: 50px;
+  background-position: center;
+  background-size: cover;
+  margin-right: 20px;
+}
+#about-container .about-text .about-fe .fe-text {
+  width: 90%;
+}
+#about-container .about-text .about-fe .fe-text h5 {
+  height: 16px;
+  color: #29303b;
+}
+
+/* about-con end */
+/* about page end */
 /* 반응형 */
 @media (max-width: 769px) {
   nav {
