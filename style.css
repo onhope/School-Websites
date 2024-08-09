@@ -454,8 +454,22 @@ footer .copyright .pro-links i:hover {
   height: 16px;
   color: #29303b;
 }
-
 /* about-con end */
+/* trust start */
+#trust {
+  text-align: center;
+  padding: 8vw;
+}
+#trust .trust-img {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+#trust .trust-img img {
+  width: 90px;
+  height: auto;
+}
+/* trust end */
 /* about page end */
 /* 반응형 */
 @media (max-width: 769px) {
