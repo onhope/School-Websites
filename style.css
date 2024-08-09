@@ -513,6 +513,14 @@ footer .copyright .pro-links i:hover {
   line-height: 45px;
   font-weight: 500;
 }
+#blog-container .blogpost {
+  width: 60%;
+  margin: 0 auto;
+}
+#blog-container .blogpost p {
+  text-align: justify;
+  padding-bottom: 60px !important;
+}
 /* blog page end */
 /* 반응형 */
 @media (max-width: 769px) {
