@@ -598,6 +598,11 @@ footer .copyright .pro-links i:hover {
     height: auto;
   }
   /* about page end */
+  /* blog page start */
+  #blog-container {
+    padding: 8vw 4vw;
+  }
+  /* blog page end */
 }
 @media (max-width: 475px) {
   /* main page start */
@@ -642,4 +647,15 @@ footer .copyright .pro-links i:hover {
     height: auto;
   }
   /* about page end */
+  /* blog page start */
+  #blog-container {
+    flex-direction: column;
+  }
+  #blog-container .blogs {
+    width: 100%;
+  }
+  #blog-container .cate {
+    width: 100%;
+  }
+  /* blog page end */
 }
