@@ -522,6 +522,50 @@ footer .copyright .pro-links i:hover {
   padding-bottom: 60px !important;
 }
 /* blog page end */
+/* course_inner page start */
+#course-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 8vw;
+}
+#course-inner .overview {
+  width: 70%;
+}
+#course-inner .overview .course-img {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+#course-inner .overview .course-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+#course-inner .overview .course-head .c-name {
+  width: 70%;
+}
+#course-inner .overview .course-head .c-name h2 {
+  color: #29303b;
+}
+#course-inner .overview .course-head .c-name .star i {
+  color: #FCD93B;
+  font-size: 0.9rem;
+}
+#course-inner .overview .course-head .c-name p {
+  font-size: 15px;
+}
+#course-inner .overview .course-head span {
+  padding: 16px 22px;
+  border-radius: 5px;
+  color: #5838fc;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: rgba(88, 56, 252, 0.1);
+}
+/* course_inner page end */
 /* 반응형 */
 @media (max-width: 769px) {
   /* main page start*/
