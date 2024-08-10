@@ -2,6 +2,8 @@
 ## 출처 
 https://youtube.com/playlist?list=PL9bD98LkBR7PlSUOf_sbqr235NgrxMnJP&si=q1YwHh5EEefi7QCX
 
+## 2. 배포한 사이트 주소
+https://onhope.github.io/School-Websites/
 
 ## 순서
 ### (1) index page
