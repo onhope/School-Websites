@@ -25,3 +25,9 @@ https://youtu.be/RamIl-pjGE4?si=HK3tiWrHQdq-wi1P
 - 버튼에 course-inner page 연결
 - course-inner page에 course-inner 영역 추가
 - 미디어 쿼리를 이용한 반응형 (ipad, iphone6/7/8 plus)
+
+### (5) contact page
+- contact 영역 추가
+- map 영역 추가
+- 구글 지도에서 가져오기 (공유 -> 지도 퍼가기)
+- 미디어 쿼리를 이용한 반응형 (ipad, iphone6/7/8 plus)
