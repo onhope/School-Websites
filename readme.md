@@ -14,9 +14,14 @@ https://youtu.be/RamIl-pjGE4?si=HK3tiWrHQdq-wi1P
 - about home / about container / trust 영역 추가
 - 미디어 쿼리를 이용한 반응형 (ipad, iphone6/7/8 plus)
 
-### (3) blog page
+### (3) blog + post page
 - blog container 영역 추가
-- post page 만들어서 버튼에 연결
+- 버튼에 post page 연결
 - post page의 post 영역 추가
 - 미디어 쿼리를 이용한 반응형 (ipad, iphone6/7/8 plus)
 
+### (4) course + course-inner page
+- course 영역 추가
+- 버튼에 course-inner page 연결
+- course-inner page에 course-inner 영역 추가
+- 미디어 쿼리를 이용한 반응형 (ipad, iphone6/7/8 plus)
