@@ -1,8 +1,9 @@
 # 1. School Websites
-### 출처 
-https://youtu.be/RamIl-pjGE4?si=HK3tiWrHQdq-wi1P
+## 출처 
+https://youtube.com/playlist?list=PL9bD98LkBR7PlSUOf_sbqr235NgrxMnJP&si=q1YwHh5EEefi7QCX
 
-### 순서
+
+## 순서
 ### (1) main page
 - 초기화 작업
 - 전역 태그 설정
